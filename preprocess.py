@@ -199,7 +199,7 @@ def preprocess(sample):
         return nltk.word_tokenize(res)
 
 def searchforgif(text,original):
-    api_key = "KVsNFGOZyR6GXwFLeeDYQIufdjN85WjC"
+    api_key = "API_KEY" # api key
     if(len(text) <1):
         text = 'nothing'
         print("Unable to find a good search key word")
